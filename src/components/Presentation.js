@@ -11,7 +11,7 @@ function Presentation(props) {
     	<ButtonMain className='ButtonMain' text='More details' />
 		</div>
 		<div>
-			<img src='../images/img1.png' alt='' />
+			<img src={props.imgSrc} alt='picture' />
 		</div>
   </div>;
 }

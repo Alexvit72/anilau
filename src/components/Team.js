@@ -1,10 +1,12 @@
 import React from 'react';
 import Profile from './Profile';
+import Headline from './Headline';
 
 function Team(props) {
   const workers = props.workers.map( (worker, index) => {
     return <Profile className='Profile'
       key={index}
+      index={index}
       worker={worker}
     />;
   });
