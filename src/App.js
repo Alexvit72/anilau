@@ -9,15 +9,17 @@ import Footer from './components/Footer';
 import workers from './data/workers';
 import img1 from './images/img1.png';
 import img2 from './images/img2.png';
+import './reset-big.css';
+import './App.css';
 
 function App() {
 	return <div className='App'>
 		<Header className='Header' />
 		<Presentation className='Presentation' imgSrc={img1} />
-		<Services className='Services' />
-		<Portfolio className='Portfolio' />
-		<Team className='Team' workers={workers} />
-		<Contact className='Contact' imgSrc={img2} />
+		<Services id='Services' className='Services' />
+		<Portfolio id='Portfolio' className='Portfolio' />
+		<Team id='Team' className='Team' workers={workers} />
+		<Contact id='Contact' className='Contact' imgSrc={img2} />
 		<Footer className='Footer' />
 	</div>;
 }

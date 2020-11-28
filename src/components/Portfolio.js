@@ -11,7 +11,7 @@ import portfolio5 from '../images/portfolio/portfolio5.png'
 import portfolio6 from '../images/portfolio/portfolio6.png'
 
 function Portfolio(props) {
-	return <div className={props.className}>
+	return <div id={props.id} className={props.className}>
 	  <Headline className='Headline' text='Portfolio' punctuation='.' />
 		<div>
 		 	<Poster className='Poster'

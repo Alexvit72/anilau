@@ -1,0 +1,14 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url(./fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: MontserratReg;
+  src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+.App {
+  font: 18px / 2 MontserratReg;
+  color: rgb(102, 102, 102);
+}

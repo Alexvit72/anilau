@@ -10,7 +10,7 @@ function Team(props) {
       worker={worker}
     />;
   });
-  return <div className={props.className}>
+  return <div id={props.id} className={props.className}>
     <Headline className='Headline' text='Our team' punctuation='.' />
     <div>
       {workers}
