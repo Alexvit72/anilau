@@ -1,0 +1,28 @@
+.Presentation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Presentation div {
+  flex-basis: 630px;
+  margin-top: 70px;
+}
+
+.Presentation img {
+  flex-shrink: 0;
+  margin: 30px 75px 0 0;
+}
+
+.Presentation .Headline {
+  font-size: 72px;
+  padding-bottom: 30px;
+}
+
+.Presentation .Headline > span {
+  color: #ffb839;
+}
+
+.Presentation .ButtonMain {
+  margin-top: 50px;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import Headline from './Headline';
+import './Logo.css';
 
 function Logo(props) {
 	return <div className={props.className}>

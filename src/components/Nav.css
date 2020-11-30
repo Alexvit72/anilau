@@ -1,0 +1,7 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-basis: 600px;
+  padding-top: 55px;
+}

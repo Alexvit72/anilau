@@ -1,4 +1,5 @@
 import React from 'react';
+import './Partners.css';
 import logo1 from '../images/logos/logo1.png';
 import logo2 from '../images/logos/logo2.png';
 import logo3 from '../images/logos/logo3.png';

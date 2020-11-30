@@ -1,0 +1,13 @@
+.Services > div {
+  padding: 190px 130px 0;
+  text-align: center;
+}
+
+.Services > div > p {
+  padding: 40px 0 65px;
+}
+
+.Services .container {
+  display: flex;
+  justify-content: space-between;
+}

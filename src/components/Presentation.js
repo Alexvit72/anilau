@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Headline from './Headline';
 import ButtonMain from './ButtonMain';
+import './Presentation.css';
 
 function Presentation(props) {
 
@@ -20,9 +21,7 @@ function Presentation(props) {
 				handleClick={handleClick}
 			/>
 		</div>
-		<div>
-			<img src={props.imgSrc} alt='picture' />
-		</div>
+		<img src={props.imgSrc} alt='picture' />
   </div>;
 
 }

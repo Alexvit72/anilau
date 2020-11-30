@@ -68,7 +68,7 @@ blockquote:after,
 q:before,
 q:after {content: ''; content: none;}
 
-a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; text-decoration: none;}
 
 del {text-decoration: line-through;}
 
@@ -95,7 +95,7 @@ input[type="checkbox"] {vertical-align: bottom;}
 .ie7 input[type="checkbox"] {vertical-align: baseline;}
 .ie6 input {vertical-align: text-bottom;}
 
-select, input, textarea {font: 99% sans-serif;}
+/*select, input, textarea {font: 99% sans-serif;}*/
 
 table {font-size: inherit; font: 100%;}
 

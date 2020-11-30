@@ -1,0 +1,17 @@
+.Logo {
+  padding: 50px 0 30px;
+}
+
+.Logo .Headline {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 48px;
+}
+
+.Logo > span {
+  display: inline-block;
+  width: 114px;
+  font: 16px / 1.2 MontserratReg;
+  color: #000;
+  text-transform: uppercase;
+}

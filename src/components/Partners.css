@@ -1,0 +1,11 @@
+.Partners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 963px;
+  margin: 160px auto;
+  padding: 40px;
+  border-radius: 33px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 13.519px 18.607px 57px 0px rgba(21, 20, 20, 0.16);
+}

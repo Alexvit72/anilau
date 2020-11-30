@@ -1,6 +1,7 @@
 import React from 'react';
 import Profile from './Profile';
 import Headline from './Headline';
+import './Team.css';
 
 function Team(props) {
   const workers = props.workers.map( (worker, index) => {

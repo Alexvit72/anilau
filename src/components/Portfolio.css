@@ -1,0 +1,31 @@
+.Portfolio#Portfolio {
+  text-align: center;
+  background: url(../images/bg3.png) 0% 0% / 1922px 100% no-repeat;
+  margin-top: 85px;
+  padding-bottom: 215px;
+}
+
+.Portfolio .Headline {
+  padding: 150px 0 70px;
+}
+
+.Portfolio .box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px
+}
+
+.Portfolio .Poster {
+  margin: 0 35px;
+}
+
+.Portfolio .Poster img {
+  border-radius: 67px;
+  box-shadow: 51.607px 36.135px 128px 0px rgba(21, 20, 20, 0.18);
+}
+
+.Portfolio .Poster p {
+  font: 18px / 1.667 MontserratBold;
+  margin: 15px auto 90px;
+}

@@ -1,0 +1,12 @@
+.Poster {
+  font: 24px / 1.5 MontserratBold;
+  color: #000;
+}
+
+.Poster img {
+  margin-bottom: 15px;
+}
+
+.Poster p {
+  width: 300px;
+}
