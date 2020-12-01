@@ -1,3 +1,12 @@
-.Team {
+#Team {
   text-align: center;
+  padding-top: 140px;
+  position: relative;
+  top: -140px;
+}
+
+.Team > div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
 }

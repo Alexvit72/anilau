@@ -1,4 +1,5 @@
 import React from 'react';
+import './Profile.css';
 import Headline from './Headline';
 import ContLink from './ContLink';
 import port1 from '../images/portraits/port1.png';
@@ -9,7 +10,7 @@ const portraits = [];
 portraits.push(port1, port2, port3, port4);
 
 function Profile(props) {
-  const {portrait, fullName, position, contacts} = props.worker;
+  const {fullName, position, contacts} = props.worker;
   const list = contacts.map( (contact, index) => {
     return <ContLink key={index} contact={contact} className='ContLink' />
   });

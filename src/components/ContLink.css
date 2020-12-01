@@ -1,0 +1,12 @@
+.ContLink {
+  border-radius: 50%;
+  background-color: #0060ff;
+  box-shadow: 8.229px 11.326px 18px 0px rgba(21, 20, 20, 0.3);
+  width: 61px;
+  height: 61px;
+  margin: 15px 9px 0;
+}
+
+.ContLink img {
+  vertical-align: -55%;
+}

@@ -1,0 +1,20 @@
+#Footer {
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  position: relative;
+  top: -40px;
+  font: 16px / 3 MontserratReg;
+  color: #fff;
+  padding-top: 35px;
+}
+
+.Footer address {
+  font-style: normal;
+  font: 24px / 1.5 MontserratReg;
+  color: #999;
+}
+
+.Footer a:hover {
+  color: #fff;
+}

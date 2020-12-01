@@ -1,10 +1,11 @@
 import React from 'react';
+import './Footer.css';
 
 function Footer(props) {
-	return <footer className={props.className}>
+	return <footer id={props.id} className={props.className}>
 		<address>
-			<a href='tel:+79680002211'>+7 968 000 22 11</a>
-			<a href='mailto:ourmailname@mail.ru'>ourmailname@mail.ru</a>
+			<p><a href='tel:+79680002211'>+7 968 000 22 11</a></p>
+			<p><a href='mailto:ourmailname@mail.ru'>ourmailname@mail.ru</a></p>
 		</address>
 		<p>Copyright © Anilau 2020</p>
 	</footer>;

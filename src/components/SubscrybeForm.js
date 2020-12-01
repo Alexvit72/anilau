@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import './SubscrybeForm.css';
 import InputField from './InputField';
 import Headline from './Headline';
 import ButtonMain from './ButtonMain';
 import user from '../images/formicons/user.png';
 import mail from '../images/formicons/mail.png';
-import phone from '../images/formicons/phone.png';
+import tel from '../images/formicons/phone.png';
 
 function SubscrybeForm(props) {
 
@@ -20,8 +21,10 @@ function SubscrybeForm(props) {
 	return <form className={props.className}
 		onSubmit={(event) => event.preventDefault()}
 	>
-		<Headline className='Headline' text='Say Hello' punctuation='!' />
-		<span>and we will write you</span>
+		<div>
+			<Headline className='Headline' text='Say Hello' punctuation='!' />
+			<span>and we will write you</span>
+		</div>
 		<div>
 			<InputField className='InputField' name='name' imgSrc={user}
 				value={name} handleChange={(event) => handleChange(setName, event)}
@@ -29,17 +32,17 @@ function SubscrybeForm(props) {
 			<InputField className='InputField' name='email' imgSrc={mail}
 				value={email} handleChange={(event) => handleChange(setEmail, event)}
 			/>
-			<InputField className='InputField' name='phone' imgSrc={phone}
+			<InputField className='InputField' name='phone' imgSrc={tel}
 				value={phone} handleChange={(event) => handleChange(setPhone, event)}
 			/>
 		</div>
-		<div>
+		<div className='submit'>
 			<ButtonMain className='ButtonMain' text='Send' />
-			<label>
-				<input type='checkbox'
-					checked={checked}
-					onChange={() => setChecked(!checked)}
-				/>
+			<input type='checkbox' id='checkbox' className='checkbox'
+				checked={checked}
+				onChange={() => setChecked(!checked)}
+			/>
+			<label htmlFor='checkbox'>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
 			</label>
 		</div>

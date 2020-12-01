@@ -1,0 +1,13 @@
+#Contact {
+  position: relative;
+  top: -40px;
+  background: url(../images/bg4.png) 0% 0% / 1922px 100% no-repeat;
+  display: flex;
+  padding-top: 160px;
+  padding-bottom: 50px;
+}
+
+.Contact .user {
+  position: relative;
+  left: 80px;
+}

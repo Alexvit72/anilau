@@ -1,0 +1,58 @@
+.SubscrybeForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 36px;
+  background-color: #fff;
+  box-shadow: 51.607px 36.135px 128px 0px rgba(21, 20, 20, 0.18);
+  width: 643px;
+  margin: 20px 0 65px 0;
+  padding: 52px 64px;
+  color: #999;
+}
+
+.SubscrybeForm .Headline {
+  display: inline-block;
+}
+
+.SubscrybeForm .Headline + span {
+  font: 24px / 1.25 MontserratBold;
+  margin-left: 12px;
+}
+
+.submit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.submit label {
+  position: relative;
+  font: 14px / 1.7 MontserratReg;
+}
+
+.submit label::before {
+  content: '';
+  border: 1px solid #d7d7d7;
+  border-radius: 10px;
+  position: absolute;
+  left: -42px;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.checkbox:checked + label::before {
+  content: url(../images/formicons/check.png);
+}
+
+.checkbox {
+  position: absolute;
+  left: -9999px;
+}
+
+.SubscrybeForm .ButtonMain {
+  flex-shrink: 0;
+  margin-right: 70px;
+}

@@ -20,7 +20,7 @@ function App() {
 		<Portfolio id='Portfolio' className='Portfolio' />
 		<Team id='Team' className='Team' workers={workers} />
 		<Contact id='Contact' className='Contact' imgSrc={img2} />
-		<Footer className='Footer' />
+		<Footer id='Footer' className='Footer' />
 	</div>;
 }
 

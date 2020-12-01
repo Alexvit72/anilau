@@ -1,0 +1,14 @@
+.Profile {
+  flex-basis: 340px;
+}
+
+.Profile .Headline {
+  font: 24px / 1.25 MontserratBold;
+  color: #000;
+  margin-top: 20px;
+}
+
+.Profile > div {
+  display: flex;
+  justify-content: center;
+}

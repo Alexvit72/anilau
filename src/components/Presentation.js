@@ -21,7 +21,7 @@ function Presentation(props) {
 				handleClick={handleClick}
 			/>
 		</div>
-		<img src={props.imgSrc} alt='picture' />
+		<img src={props.imgSrc} alt='freelancer' />
   </div>;
 
 }
