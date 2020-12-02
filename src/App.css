@@ -15,11 +15,19 @@
   color: rgb(102, 102, 102);
   background:
     url(./images/bg1.png) no-repeat,
-    url(./images/bg2.png) 813px top no-repeat,
+    url(./images/bg2.png) right top no-repeat,
     url(./images/bg5.png) left bottom no-repeat,
     #fff;
 }
 
 .App > * {
   padding: 0 10.9%;
+}
+
+@media (max-width: 1140px) {
+
+  .App > * {
+    padding: 0 5%;
+  }
+
 }

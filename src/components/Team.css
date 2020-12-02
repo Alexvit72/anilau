@@ -8,5 +8,15 @@
 .Team > div {
   display: flex;
   justify-content: space-between;
-  margin-top: 70px;
+  margin: 0 auto;
+}
+
+@media (max-width: 867px) {
+
+  .Team > div {
+    max-width: 650px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
 }

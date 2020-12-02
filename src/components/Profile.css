@@ -1,5 +1,10 @@
 .Profile {
   flex-basis: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
 }
 
 .Profile .Headline {
@@ -10,5 +15,4 @@
 
 .Profile > div {
   display: flex;
-  justify-content: center;
 }

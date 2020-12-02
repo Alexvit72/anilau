@@ -1,5 +1,5 @@
 .Logo {
-  padding: 50px 0 30px;
+  padding: 50px 0 5px;
 }
 
 .Logo .Headline {
@@ -14,4 +14,12 @@
   font: 16px / 1.2 MontserratReg;
   color: #000;
   text-transform: uppercase;
+}
+
+@media (max-width: 1250px) {
+
+  .Logo > span {
+    display: none;
+  }
+
 }

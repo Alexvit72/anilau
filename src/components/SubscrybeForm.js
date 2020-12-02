@@ -18,10 +18,8 @@ function SubscrybeForm(props) {
 		setFunc(event.target.value);
 	}
 
-	return <form className={props.className}
-		onSubmit={(event) => event.preventDefault()}
-	>
-		<div>
+	return <form className={props.className} onSubmit={(event) => 			event.preventDefault()}>
+		<div className='headblock'>
 			<Headline className='Headline' text='Say Hello' punctuation='!' />
 			<span>and we will write you</span>
 		</div>

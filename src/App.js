@@ -15,7 +15,7 @@ import './App.css';
 function App() {
 	return <div className='App'>
 		<Header className='Header' />
-		<Presentation className='Presentation' imgSrc={img1} />
+		<Presentation id='Presentation' className='Presentation' imgSrc={img1} />
 		<Services id='Services' className='Services' />
 		<Portfolio id='Portfolio' className='Portfolio' />
 		<Team id='Team' className='Team' workers={workers} />

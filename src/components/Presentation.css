@@ -1,17 +1,17 @@
 .Presentation {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  margin-bottom: 40px;
 }
 
 .Presentation div {
-  flex-basis: 630px;
-  margin-top: 70px;
+  max-width: 630px;
+  margin-top: 160px;
 }
 
 .Presentation img {
-  flex-shrink: 0;
-  margin: 30px 75px 0 0;
+  margin: 65px 60px 0 80px;
 }
 
 .Presentation .Headline {
@@ -23,6 +23,16 @@
   color: #ffb839;
 }
 
-.Presentation .ButtonMain {
-  margin-top: 50px;
+.Presentation .hidden {
+  margin: 35px 0 50px;
+}
+
+@media (max-width: 1500px) {
+
+  .Presentation {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
 }

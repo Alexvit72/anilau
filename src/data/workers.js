@@ -1,7 +1,7 @@
 let workers = [
   {
     fullName: 'Ed Volkov',
-    position: 'Project Manager / Laravel Developer',
+    position: 'Project Manager /  Laravel Developer',
     contacts: ['wa', 'fb', 'in',]
   },
   {

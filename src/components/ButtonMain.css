@@ -7,7 +7,11 @@
   height: 86px;
   font-size: 18px;
   font-family: MontserratBold;
-  color: rgb(255, 255, 255);
+  color: #fff;
   line-height: 2.667;
   text-align: center;
+}
+
+.ButtonMain:hover {
+  color: #ffb839;
 }

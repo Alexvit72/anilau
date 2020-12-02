@@ -5,19 +5,26 @@
   border-radius: 36px;
   background-color: #fff;
   box-shadow: 51.607px 36.135px 128px 0px rgba(21, 20, 20, 0.18);
-  width: 643px;
+  max-width: 643px;
   margin: 20px 0 65px 0;
-  padding: 52px 64px;
+  padding: 50px 60px;
   color: #999;
 }
 
-.SubscrybeForm .Headline {
-  display: inline-block;
+.headblock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 30px;
 }
 
-.SubscrybeForm .Headline + span {
+.headblock .Headline {
+  margin-right: 12px;
+}
+
+.headblock .Headline + span {
   font: 24px / 1.25 MontserratBold;
-  margin-left: 12px;
 }
 
 .submit {
@@ -29,6 +36,7 @@
 .submit label {
   position: relative;
   font: 14px / 1.7 MontserratReg;
+  margin: 20px 0 0 70px;
 }
 
 .submit label::before {
@@ -54,5 +62,17 @@
 
 .SubscrybeForm .ButtonMain {
   flex-shrink: 0;
-  margin-right: 70px;
+  margin: 25px 0 0;
+}
+
+@media (max-width: 649px) {
+
+  .SubscrybeForm {
+    padding: 50px 7%;
+  }
+
+  .submit {
+    flex-direction: column-reverse;
+  }
+
 }

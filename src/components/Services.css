@@ -1,13 +1,29 @@
-.Services > div {
-  padding: 190px 130px 0;
+#Services {
+  padding-top: 150px;
   text-align: center;
 }
 
-.Services > div > p {
-  padding: 40px 0 65px;
+.Services > p {
+  padding: 40px 8.6% 0;
 }
 
 .Services .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.Services .Poster {
+  margin-top: 65px;
+}
+
+@media (max-width: 867px) {
+
+  .Services .container {
+    flex-direction: column;
+  }
+
+  .Services .Poster {
+    margin-top: 80px;
+  }
+
 }
