@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Header';
 import Presentation from './components/Presentation';
 import Services from './components/Services';
@@ -12,9 +12,32 @@ import img2 from './images/img2.png';
 import './reset-big.css';
 import './App.css';
 
-function App() {
+function App(props) {
+
+	useEffect( () => {
+		window.addEventListener('scroll', function() {
+
+			let header = document.querySelector('.Header');
+			if (header.getBoundingClientRect().y == -40) {
+				header.classList.add('sticked');
+			} else {
+				header.classList.remove('sticked');
+			}
+
+			let elem = document.elementFromPoint(100, 200).closest('[id]');
+			let anchors = document.querySelectorAll('.Nav .Anchor');
+			for (let anchor of anchors) {
+				anchor.classList.remove('active');
+				if (elem && anchor.getAttribute('href').slice(1) == elem.id) {
+					anchor.classList.add('active');
+				}
+			}
+
+		});
+	});
+
 	return <div className='App'>
-		<Header className='Header' />
+		<Header id='Header' className='Header' />
 		<Presentation id='Presentation' className='Presentation' imgSrc={img1} />
 		<Services id='Services' className='Services' />
 		<Portfolio id='Portfolio' className='Portfolio' />

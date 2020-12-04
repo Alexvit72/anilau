@@ -1,4 +1,4 @@
-.ContLink { 
+.ContLink {
   display: block;
   border-radius: 50%;
   box-shadow: 8.229px 11.326px 18px 0px rgba(21, 20, 20, 0.3);
@@ -8,7 +8,7 @@
 }
 
 .w {
-  background: url(../images/soc-nets/wa-sprite.png) center -61.5px no-repeat, #0060ff;
+  background: url(../images/soc-nets/wa-sprite.png) center -62px no-repeat, #0060ff;
 }
 
 .f {

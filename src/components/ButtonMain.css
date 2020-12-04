@@ -14,4 +14,13 @@
 
 .ButtonMain:hover {
   color: #ffb839;
+  transition: 0.3s;
+}
+
+@media (max-width: 300px) {
+
+  .ButtonMain {
+    width: 180px;
+  }
+
 }

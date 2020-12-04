@@ -3,6 +3,34 @@
   justify-content: space-between;
   align-items: flex-start;
   flex-basis: 600px;
-  margin-left: 60px;
+  margin-left: 40px;
   padding-top: 60px;
+}
+
+@media (max-width: 786px) {
+
+  .Nav {
+    position: absolute;
+    right: 0;
+    top: 109px;
+    margin-left: 0;
+    background: #fff;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 0;
+  }
+
+  .Nav.mobile {
+    display: flex;
+  }
+
+}
+
+@media (max-width: 430px) {
+
+  .Nav {
+    top: 97px;
+  }
+
 }

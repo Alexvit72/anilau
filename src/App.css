@@ -8,15 +8,13 @@
   src: url(./fonts/Montserrat-Regular.ttf);
 }
 
-@import-normalize;
-
 .App {
   font: 18px / 2 MontserratReg;
-  color: rgb(102, 102, 102);
+  color: #666;
   background:
     url(./images/bg1.png) no-repeat,
     url(./images/bg2.png) right top no-repeat,
-    url(./images/bg5.png) left bottom no-repeat,
+    url(./images/bg5.png) left bottom /100% auto no-repeat,
     #fff;
 }
 

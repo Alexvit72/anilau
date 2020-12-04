@@ -1,9 +1,23 @@
 .Anchor {
   font: 18px / 1.2 MontserratBold;
   color: #000;
-  padding-bottom: 20px;
+  padding: 0 5px 25px;
 }
 
-.Anchor:hover {
+.Anchor:hover, .Anchor.active {
   border-bottom: 2px solid #000;
+}
+
+@media (max-width: 786px) {
+
+  .Anchor {
+    padding: 15px 20px;
+    width: 124px;
+  }
+
+  .Anchor:hover, .Anchor.active {
+    border-bottom: none;
+    border-left: 2px solid #000;
+  }
+
 }

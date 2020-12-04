@@ -12,13 +12,17 @@
 .Contact .user {
   position: relative;
   left: 80px;
-  max-width: 634px;
+  /*max-width: 682px;*/
 }
 
 @media (max-width: 1599px) {
 
   #Contact {
     flex-direction: column-reverse;
+  }
+
+  .Contact .user {
+    left: 30px;
   }
 
 }

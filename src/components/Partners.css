@@ -10,10 +10,15 @@
   box-shadow: 13.519px 18.607px 57px 0px rgba(21, 20, 20, 0.16);
 }
 
-/*@media (max-width: 991px) {
+@media (max-width: 900px) {
 
   .Partners {
+    max-width: 250px;
     flex-direction: column;
   }
 
-}*/
+  .Partners img {
+    margin: 20px;
+  }
+
+}

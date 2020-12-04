@@ -76,3 +76,11 @@
   }
 
 }
+
+@media (max-width: 300px) {
+
+  .submit label {
+    margin-left: 40px;
+  }
+
+}

@@ -3,7 +3,7 @@ import Anchor from './Anchor';
 import './Nav.css';
 
 function Nav(props) {
-	return <nav className={props.className}>
+	return <nav className={props.className} onClick={props.onClick}>
 		<Anchor className='Anchor' text='Services' href='#Services' />
 		<Anchor className='Anchor' text='Portfolio' href='#Portfolio' />
 		<Anchor className='Anchor' text='Team' href='#Team' />
