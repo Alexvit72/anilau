@@ -16,7 +16,7 @@
   margin-top: 65px;
 }
 
-@media (max-width: 867px) {
+@media (max-width: 900px) {
 
   .Services .container {
     flex-direction: column;

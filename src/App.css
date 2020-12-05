@@ -13,13 +13,24 @@
   color: #666;
   background:
     url(./images/bg1.png) no-repeat,
-    url(./images/bg2.png) right top no-repeat,
-    url(./images/bg5.png) left bottom /100% auto no-repeat,
+    url(./images/bg2.png) right top / calc(920px + 10.9%) 775px no-repeat,
+    url(./images/bg5.png) left bottom / 100% auto no-repeat,
     #fff;
 }
 
 .App > * {
   padding: 0 10.9%;
+}
+
+@media (max-width: 1500px) {
+
+  .App {
+    background:
+    url(./images/bg1.png) no-repeat,
+    url(./images/bg5.png) left bottom / 100% 50px no-repeat,
+    #fff;
+  }
+
 }
 
 @media (max-width: 1140px) {

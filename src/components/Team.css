@@ -11,7 +11,7 @@
   margin: 0 auto;
 }
 
-@media (max-width: 867px) {
+@media (max-width: 900px) {
 
   .Team > div {
     max-width: 650px;
