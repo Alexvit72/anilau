@@ -18,12 +18,16 @@
 
 @media (max-width: 900px) {
 
+  .Services .view {
+    overflow-x: scroll;
+}
+
   .Services .container {
-    flex-direction: column;
-  }
+    width: calc(100% * 3);
+}
 
   .Services .Poster {
-    margin-top: 80px;
+    width: 100%
   }
 
 }
