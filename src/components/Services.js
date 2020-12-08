@@ -21,7 +21,7 @@ function Services(props) {
 			/>
 			<Poster className='Poster'
 				imgSrc={service3}
-				caption='Team for you project'
+				caption='Team for your project'
 			/>
 		</div>
   </div>;

@@ -1,11 +1,12 @@
 .SubscrybeForm {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 36px;
   background-color: #fff;
   box-shadow: 51.607px 36.135px 128px 0px rgba(21, 20, 20, 0.18);
-  max-width: 643px;
+  width: 643px;
   margin: 20px 0 65px 0;
   padding: 50px 60px;
   color: #999;
@@ -27,6 +28,11 @@
   font: 24px / 1.25 MontserratBold;
 }
 
+.sub {
+  margin: 50px auto 30px;
+  padding: 0 25px;
+}
+
 .submit {
   display: flex;
   justify-content: space-between;
@@ -37,6 +43,10 @@
   position: relative;
   font: 14px / 1.7 MontserratReg;
   margin: 20px 0 0 70px;
+}
+
+.submit label a {
+  border-bottom: 1px solid #999;
 }
 
 .submit label::before {
@@ -65,9 +75,27 @@
   margin: 25px 0 0;
 }
 
+.alarm {
+  position: absolute;
+  bottom: 50px;
+  width: 82%;
+  padding: 20px 20px;
+  background: #fff;
+  box-shadow: 13.519px 18.607px 35px 0px rgba(21, 20, 20, 0.3);
+  font: 24px / 1.25 MontserratBold;
+  color: #f00;
+  border-radius: 20px;
+  display: none;
+}
+
+.alarm.shown {
+  display: block;
+}
+
 @media (max-width: 649px) {
 
   .SubscrybeForm {
+    width: auto;
     padding: 50px 7%;
   }
 

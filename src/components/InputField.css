@@ -4,6 +4,11 @@
   margin-bottom: 20px;
 }
 
+.InputField p span {
+  color: #f00;
+  margin-left: 10px;
+}
+
 .input {
   display: flex;
   justify-content: space-between;
