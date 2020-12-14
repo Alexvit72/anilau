@@ -1,5 +1,4 @@
 .Poster {
-  font: 24px / 1.5 MontserratBold;
   color: #000;
 }
 
@@ -10,4 +9,5 @@
 .Poster p {
   max-width: 300px;
   margin: auto;
+  font: 24px / 1.5 MontserratBold;
 }

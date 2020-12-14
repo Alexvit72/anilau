@@ -2,19 +2,26 @@
   position: relative;
   max-width: 963px;
   margin: 110px auto 0;
+  padding: 40px 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 33px;
+  box-shadow: 13.519px 18.607px 57px 0px rgba(21, 20, 20, 0.16);
 }
 
-.Partners .view {
-  display: flex;
-  align-items: center;
-  border-radius: 33px;
-  box-shadow: 13.519px 18.607px 57px 0px rgba(21, 20, 20, 0.16);background-color: rgb(255, 255, 255);
-  padding: 40px 20px;
+.Partners .container {
   overflow: hidden;
 }
 
+.Partners .view {
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: left 0.25s;
+}
+
 .Partners .view img {
-  margin: 20px;
+  display: block;
+  padding: 0 20px;
 }
 
 .Partners .Arrow {
@@ -22,24 +29,23 @@
   top: 64px;
 }
 
-.Partners .Arrow.prev {
+.Partners .Arrow.next {
   left: -40px;
   transform: scale(-1);
 }
 
-.Partners .Arrow.next {
+.Partners .Arrow.prev {
   right: -40px;
 }
 
 @media (max-width: 900px) {
 
-  .Partners {
-    max-width: 250px;
-    flex-direction: column;
+  .Partners .Arrow {
+    display: none;
   }
 
-  .Partners img {
-    margin: 20px;
+  .Partners .container {
+    overflow-x: scroll;
   }
 
 }

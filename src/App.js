@@ -15,6 +15,7 @@ import './App.css';
 function App(props) {
 
 	useEffect( () => {
+
 		window.addEventListener('scroll', function() {
 
 			let header = document.querySelector('.Header');
@@ -34,7 +35,7 @@ function App(props) {
 			}
 
 		});
-	});
+	} );
 
 	return <div className='App'>
 		<Header id='Header' className='Header' />
@@ -45,6 +46,7 @@ function App(props) {
 		<Contact id='Contact' className='Contact' imgSrc={img2} />
 		<Footer id='Footer' className='Footer' />
 	</div>;
+	
 }
 
 export default App;
