@@ -1,48 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Headline from './Headline';
-import Poster from './Poster';
+import BoxOfPosters from './BoxOfPosters';
 import ButtonMain from './ButtonMain';
 import Partners from './Partners';
-import portfolio1 from '../images/portfolio/portfolio1.png';
-import portfolio2 from '../images/portfolio/portfolio2.png';
-import portfolio3 from '../images/portfolio/portfolio3.png';
-import portfolio4 from '../images/portfolio/portfolio4.png';
-import portfolio5 from '../images/portfolio/portfolio5.png';
-import portfolio6 from '../images/portfolio/portfolio6.png';
 import './Portfolio.css';
 
 function Portfolio(props) {
+
+	const [numBlocks, setNumBlocks] = useState(0);
+
+	function handleClick() {
+		if (numBlocks == props.portfolio.length - 1) {
+			setNumBlocks(0);
+		} else {
+			setNumBlocks(numBlocks + 1);
+		}
+	}
+
+	const list = props.portfolio.map( (works, index) => {
+		return index <= numBlocks ?
+			<BoxOfPosters key={index} className='BoxOfPosters' works={works} /> : null;
+	} );
+
 	return <div id={props.id} className={props.className}>
 	  <Headline className='Headline' text='Portfolio' punctuation='.' />
 		<div className='box'>
-		 	<Poster className='Poster'
-				imgSrc={portfolio1}
-				caption='Landing page for supermarket Viсtoria'
-			/>
-			<Poster className='Poster'
-				imgSrc={portfolio2}
-				caption='Landing page for supermarket Viсtoria'
-			/>
-			<Poster className='Poster'
-				imgSrc={portfolio3}
-				caption='Landing page for supermarket Viсtoria'
-			/>
-			<Poster className='Poster'
-				imgSrc={portfolio4}
-				caption='Landing page for supermarket Viсtoria'
-			/>
-			<Poster className='Poster'
-				imgSrc={portfolio5}
-				caption='Landing page for supermarket Viсtoria'
-			/>
-			<Poster className='Poster'
-				imgSrc={portfolio6}
-				caption='Landing page for supermarket Viсtoria'
-			/>
+		 	{list}
 		</div>
-		<ButtonMain className='ButtonMain' text='More works'/>
+		<ButtonMain className='ButtonMain'
+			text={numBlocks < props.portfolio.length - 1 ? 'More works' : 'Close'}
+			handleClick={handleClick}
+		/>
 		<Partners className='Partners' />
   </div>;
+
 }
 
 export default Portfolio;

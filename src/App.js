@@ -7,6 +7,7 @@ import Team from './components/Team';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import workers from './data/workers';
+import portfolio from './data/portfolio';
 import img1 from './images/img1.png';
 import img2 from './images/img2.png';
 import './reset-big.css';
@@ -41,12 +42,12 @@ function App(props) {
 		<Header id='Header' className='Header' />
 		<Presentation id='Presentation' className='Presentation' imgSrc={img1} />
 		<Services id='Services' className='Services' />
-		<Portfolio id='Portfolio' className='Portfolio' />
+		<Portfolio id='Portfolio' className='Portfolio' portfolio={portfolio} />
 		<Team id='Team' className='Team' workers={workers} />
 		<Contact id='Contact' className='Contact' imgSrc={img2} />
 		<Footer id='Footer' className='Footer' />
 	</div>;
-	
+
 }
 
 export default App;
