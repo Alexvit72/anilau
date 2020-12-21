@@ -14,20 +14,37 @@
 
 .Services .Poster {
   margin-top: 65px;
+  width: calc(100% / 3);
 }
 
 @media (max-width: 900px) {
 
   .Services .view {
     overflow-x: scroll;
-}
+  }
 
   .Services .container {
     width: calc(100% * 3);
-}
+  }
 
   .Services .Poster {
     width: 100%
+  }
+
+}
+
+@media (max-width: 430px) {
+
+  #Services {
+    padding-top: 70px;
+  }
+
+  .Services > p {
+    padding: 20px 0 0;
+  }
+
+  .Services .Poster {
+    margin-top: 35px;
   }
 
 }

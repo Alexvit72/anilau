@@ -5,10 +5,8 @@
   box-shadow: 13.519px 18.607px 35px 0px rgba(21, 20, 20, 0.3);
   width: 240px;
   height: 86px;
-  font-size: 18px;
-  font-family: MontserratBold;
+  font: 1.0rem / 2.67 MontserratBold;
   color: #fff;
-  line-height: 2.667;
   text-align: center;
 }
 

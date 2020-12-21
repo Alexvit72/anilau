@@ -1,6 +1,7 @@
 .Partners {
   position: relative;
-  max-width: 963px;
+  width: 85%;
+  max-width: 946px;
   margin: 110px auto 0;
   padding: 40px 20px;
   background-color: rgb(255, 255, 255);
@@ -38,7 +39,11 @@
   right: -40px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 769px) {
+
+  .Partners {
+    width: 90%;
+  }
 
   .Partners .Arrow {
     display: none;

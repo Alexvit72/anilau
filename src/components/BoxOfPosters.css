@@ -1,0 +1,19 @@
+.BoxOfPosters {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 50px;
+  padding-top: 70px;
+}
+
+@media (max-width: 768px) {
+
+  .BoxOfPosters {
+    grid-template-columns: repeat(3, 100%);
+    overflow-x: scroll;
+  }
+
+  .Portfolio .BoxOfPosters a .Poster {
+    margin: auto;
+  }
+
+}

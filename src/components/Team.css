@@ -20,3 +20,11 @@
   }
 
 }
+
+@media (max-width: 769px) {
+
+  #Team {
+    padding-top: 80px;
+  }
+
+}

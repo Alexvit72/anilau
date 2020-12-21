@@ -8,11 +8,15 @@
 }
 
 .Profile .Headline {
-  font: 24px / 1.25 MontserratBold;
+  font: 1.33rem / 1.25 MontserratBold;
   color: #000;
   margin-top: 20px;
 }
 
 .Profile > div {
   display: flex;
+}
+
+.Profile p {
+  font-size: 18px;
 }

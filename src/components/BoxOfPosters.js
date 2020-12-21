@@ -1,5 +1,6 @@
 import React from 'react';
 import Poster from './Poster';
+import './BoxOfPosters.css';
 
 function BoxOfPosters(props) {
 

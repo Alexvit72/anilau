@@ -12,7 +12,7 @@
 
 .menu {
   display: none;
-  font: 18px / 1.2 MontserratBold;
+  font: 1.0rem / 1.2 MontserratBold;
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -22,7 +22,11 @@
   padding: 0 10px;
 }
 
-@media (max-width: 786px) {
+.menu:hover {
+  color: #ffb839;
+}
+
+@media (max-width: 769px) {
 
   .menu {
     display: block;
@@ -35,10 +39,6 @@
   .Header {
     justify-content: space-evenly;
   }
-
-}
-
-@media (max-width: 430px) {
 
   .menu {
     margin-top: 50px;

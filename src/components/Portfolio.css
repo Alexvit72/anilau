@@ -2,28 +2,27 @@
   text-align: center;
   background: url(../images/bg3.png) 0% 0% / 100% 100% no-repeat;
   margin-top: 85px;
-  padding-bottom: 215px;
+  padding: 0 0 215px;
 }
 
 .Portfolio .Headline {
-  padding: 150px 0 70px;
+  padding-top: 150px;
 }
 
 .Portfolio .box {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-bottom: 10px
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 0 10.9%;
 }
 
 .Portfolio .Poster img {
   border-radius: 16%;
   box-shadow: 51.607px 36.135px 128px 0px rgba(21, 20, 20, 0.18);
-  margin: 0 20px 15px;
 }
 
 .Portfolio .Poster p {
-  font: 18px / 1.667 MontserratBold;
+  font: 1rem / 1.667 MontserratBold;
   margin: 15px auto 90px;
 }
 
@@ -35,10 +34,30 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
+
+  .Portfolio .box {
+    padding: 0 5%;
+  }
+
+}
+
+@media (max-width: 769px) {
+
+  .Portfolio .Headline {
+    padding-top: 80px;
+  }
+
+  .Portfolio .Poster {
+    max-width: 75%;
+  }
 
   .Portfolio .Poster img {
     margin: 0;
+  }
+
+  .Portfolio .Poster p {
+    margin: 0 auto 30px;
   }
 
 }
