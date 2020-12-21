@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/anilau/static/css/main.f1bb23f8.chunk.css",
+    "main.js": "/anilau/static/js/main.4acceb40.chunk.js",
+    "main.js.map": "/anilau/static/js/main.4acceb40.chunk.js.map",
+    "runtime-main.js": "/anilau/static/js/runtime-main.f854219b.js",
+    "runtime-main.js.map": "/anilau/static/js/runtime-main.f854219b.js.map",
+    "static/js/2.de26c652.chunk.js": "/anilau/static/js/2.de26c652.chunk.js",
+    "static/js/2.de26c652.chunk.js.map": "/anilau/static/js/2.de26c652.chunk.js.map",
+    "static/js/3.64015594.chunk.js": "/anilau/static/js/3.64015594.chunk.js",
+    "static/js/3.64015594.chunk.js.map": "/anilau/static/js/3.64015594.chunk.js.map",
+    "index.html": "/anilau/index.html",
+    "static/css/main.f1bb23f8.chunk.css.map": "/anilau/static/css/main.f1bb23f8.chunk.css.map",
+    "static/js/2.de26c652.chunk.js.LICENSE.txt": "/anilau/static/js/2.de26c652.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/anilau/static/media/bg2.8c08d1e2.png",
+    "static/media/Portfolio.css": "/anilau/static/media/bg3.c2db832c.png",
+    "static/media/Contact.css": "/anilau/static/media/bg4.a81c87e3.png",
+    "static/media/img1.b789edff.png": "/anilau/static/media/img1.b789edff.png",
+    "static/media/img2.fa480333.png": "/anilau/static/media/img2.fa480333.png",
+    "static/media/port1.450572cd.png": "/anilau/static/media/port1.450572cd.png",
+    "static/media/port2.bf773b5e.png": "/anilau/static/media/port2.bf773b5e.png",
+    "static/media/port3.0f8ef2e8.png": "/anilau/static/media/port3.0f8ef2e8.png",
+    "static/media/port4.8dcf4317.png": "/anilau/static/media/port4.8dcf4317.png",
+    "static/media/service2.6bac412d.png": "/anilau/static/media/service2.6bac412d.png",
+    "static/media/service3.e2167f54.png": "/anilau/static/media/service3.e2167f54.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f854219b.js",
+    "static/js/2.de26c652.chunk.js",
+    "static/css/main.f1bb23f8.chunk.css",
+    "static/js/main.4acceb40.chunk.js"
+  ]
+}
