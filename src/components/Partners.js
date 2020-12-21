@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import './Partners.css';
 import Arrow from './Arrow';
 import logo1 from '../images/logos/logo1.png';
@@ -58,7 +58,7 @@ function Partners(props) {
 	});
 
 	return <div className={props.className}>
-		<Arrow className={next != 0 ? 'Arrow next active' : 'Arrow next'}
+		<Arrow className={next !== 0 ? 'Arrow next active' : 'Arrow next'}
 			onClick={handleClickNext}
 		/>
 		<div className='container'>
@@ -66,7 +66,7 @@ function Partners(props) {
 				{list}
 			</div>
 		</div>
-		<Arrow className={previous != 0 ? 'Arrow prev active' : 'Arrow prev'}
+		<Arrow className={previous !== 0 ? 'Arrow prev active' : 'Arrow prev'}
 			onClick={handleClickPrev}
 		/>
 	</div>;

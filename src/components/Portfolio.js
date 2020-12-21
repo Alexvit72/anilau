@@ -10,7 +10,7 @@ function Portfolio(props) {
 	const [numBlocks, setNumBlocks] = useState(0);
 
 	function handleClick() {
-		if (numBlocks == props.portfolio.length - 1) {
+		if (numBlocks === props.portfolio.length - 1) {
 			setNumBlocks(0);
 		} else {
 			setNumBlocks(numBlocks + 1);

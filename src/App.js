@@ -15,7 +15,7 @@ import './App.css';
 
 function toStyleHeader() {
 	let header = document.querySelector('.Header');
-	if (header.getBoundingClientRect().y == -40) {
+	if (header.getBoundingClientRect().y === -40) {
 		header.classList.add('sticked');
 	} else {
 		header.classList.remove('sticked');
@@ -32,7 +32,7 @@ window.addEventListener('scroll', function() {
 	let anchors = document.querySelectorAll('.Nav .Anchor');
 	for (let anchor of anchors) {
 		anchor.classList.remove('active');
-		if (elem && anchor.getAttribute('href').slice(1) == elem.id) {
+		if (elem && anchor.getAttribute('href').slice(1) === elem.id) {
 			anchor.classList.add('active');
 		}
 	}
