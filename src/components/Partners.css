@@ -21,7 +21,6 @@
 }
 
 .Partners .view img {
-  display: block;
   padding: 0 20px;
 }
 
@@ -41,9 +40,9 @@
 
 @media (max-width: 769px) {
 
-  .Partners {
-    width: 90%;
-  }
+  /*.Partners {
+    width: 75%;
+  }*/
 
   .Partners .Arrow {
     display: none;

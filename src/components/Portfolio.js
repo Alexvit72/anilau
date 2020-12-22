@@ -31,7 +31,7 @@ function Portfolio(props) {
 			text={numBlocks < props.portfolio.length - 1 ? 'More works' : 'Close'}
 			handleClick={handleClick}
 		/>
-		<Partners className='Partners' />
+		<Partners className='Partners' logos={props.logos} />
   </div>;
 
 }
