@@ -33,6 +33,7 @@ window.addEventListener('scroll', function() {
 	let anchors = document.querySelectorAll('.Nav .Anchor');
 	for (let anchor of anchors) {
 		anchor.classList.remove('active');
+		anchor.blur();
 		if (elem && anchor.getAttribute('href').slice(1) === elem.id) {
 			anchor.classList.add('active');
 		}
