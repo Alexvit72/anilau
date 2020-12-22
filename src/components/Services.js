@@ -14,7 +14,7 @@ function Services(props) {
 			<div className='container'>
 				<Poster className='Poster'
 					imgSrc={service1}
-					caption={<p><p>Graphic</p><p>and Web Design</p></p>}
+					caption={<>Graphic<br />and Web Design</>}
 				/>
 				<Poster className='Poster'
 					imgSrc={service2}

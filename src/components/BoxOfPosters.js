@@ -5,9 +5,8 @@ import './BoxOfPosters.css';
 function BoxOfPosters(props) {
 
   const list = props.works.map( (work, index) => {
-    return <a href={work.href}>
+    return <a href={work.href} key={index}>
       <Poster className='Poster'
-        key={index}
         imgSrc={process.env.PUBLIC_URL + work.imgSrc}
         caption={work.caption}
       />
