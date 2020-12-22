@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/anilau/static/css/main.f1bb23f8.chunk.css",
-    "main.js": "/anilau/static/js/main.4acceb40.chunk.js",
-    "main.js.map": "/anilau/static/js/main.4acceb40.chunk.js.map",
+    "main.css": "/anilau/static/css/main.db60f552.chunk.css",
+    "main.js": "/anilau/static/js/main.747bc73e.chunk.js",
+    "main.js.map": "/anilau/static/js/main.747bc73e.chunk.js.map",
     "runtime-main.js": "/anilau/static/js/runtime-main.f854219b.js",
     "runtime-main.js.map": "/anilau/static/js/runtime-main.f854219b.js.map",
     "static/js/2.de26c652.chunk.js": "/anilau/static/js/2.de26c652.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.64015594.chunk.js": "/anilau/static/js/3.64015594.chunk.js",
     "static/js/3.64015594.chunk.js.map": "/anilau/static/js/3.64015594.chunk.js.map",
     "index.html": "/anilau/index.html",
-    "static/css/main.f1bb23f8.chunk.css.map": "/anilau/static/css/main.f1bb23f8.chunk.css.map",
+    "static/css/main.db60f552.chunk.css.map": "/anilau/static/css/main.db60f552.chunk.css.map",
     "static/js/2.de26c652.chunk.js.LICENSE.txt": "/anilau/static/js/2.de26c652.chunk.js.LICENSE.txt",
     "static/media/App.css": "/anilau/static/media/bg2.8c08d1e2.png",
     "static/media/Portfolio.css": "/anilau/static/media/bg3.c2db832c.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.f854219b.js",
     "static/js/2.de26c652.chunk.js",
-    "static/css/main.f1bb23f8.chunk.css",
-    "static/js/main.4acceb40.chunk.js"
+    "static/css/main.db60f552.chunk.css",
+    "static/js/main.747bc73e.chunk.js"
   ]
 }
