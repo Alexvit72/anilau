@@ -1,0 +1,13 @@
+.Poster {
+  color: #000;
+}
+
+.Poster img {
+  margin-bottom: 15px;
+}
+
+.Poster p {
+  max-width: 300px;
+  margin: auto;
+  font: 1.33rem / 1.5 MontserratBold;
+}

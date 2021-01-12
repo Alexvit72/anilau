@@ -1,0 +1,26 @@
+.Logo {
+  display: flex;
+  align-items: flex-end;
+  padding: 54px 0 10px;
+}
+
+.Logo .Headline {
+  font-size: 2.67rem;
+}
+
+.Logo > span {
+  display: inline-block;
+  width: 100px;
+  margin: 0 0 3px 10px;
+  font: 0.89rem / 1.2 MontserratReg;
+  color: #000;
+  text-transform: uppercase;
+}
+
+@media (max-width: 430px) {
+
+  .Logo > span {
+    display: none;
+  }
+
+}

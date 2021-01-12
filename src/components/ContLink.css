@@ -1,0 +1,24 @@
+.ContLink {
+  display: block;
+  border-radius: 50%;
+  box-shadow: 8.229px 11.326px 18px 0px rgba(21, 20, 20, 0.3);
+  width: 61px;
+  height: 61px;
+  margin: 15px 7px 0;
+}
+
+.w {
+  background: url(../images/soc-nets/wa-sprite.png) center -62px no-repeat, #0060ff;
+}
+
+.f {
+  background: url(../images/soc-nets/fb-sprite.png) center -61px no-repeat, #0060ff;
+}
+
+.i {
+  background: url(../images/soc-nets/in-sprite.png) center -61px no-repeat, #0060ff;
+}
+
+.w:hover, .f:hover, .i:hover {
+  background-position: center top;
+}

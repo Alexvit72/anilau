@@ -1,0 +1,42 @@
+#Contact {
+  position: relative;
+  top: -40px;
+  background: url(../images/bg4.png) 0% 0% / 100% 100% no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 160px;
+  padding-bottom: 50px;
+}
+
+.Contact .user {
+  position: relative;
+  left: 80px;
+  z-index: 1;
+}
+
+@media (max-width: 1599px) {
+
+  #Contact {
+    flex-direction: column-reverse;
+  }
+
+  .Contact .user {
+    left: 30px;
+  }
+
+}
+
+@media (max-width: 769px) {
+
+  #Contact {
+    padding-top: 70px;
+    background: #ffb839;
+  }
+
+  .Contact .user {
+    left: 5%;
+    width: 90%;
+  }
+
+}

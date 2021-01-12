@@ -1,0 +1,55 @@
+.Partners {
+  position: relative;
+  width: 85%;
+  max-width: 946px;
+  margin: 110px auto 0;
+  padding: 40px 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 33px;
+  box-shadow: 13.519px 18.607px 57px 0px rgba(21, 20, 20, 0.16);
+}
+
+.Partners .container {
+  overflow: hidden;
+}
+
+.Partners .view {
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: left 0.25s;
+}
+
+.Partners .view img {
+  padding: 0 20px;
+}
+
+.Partners .Arrow {
+  position: absolute;
+  top: 64px;
+}
+
+.Partners .Arrow.next {
+  left: -40px;
+  transform: scale(-1);
+}
+
+.Partners .Arrow.prev {
+  right: -40px;
+}
+
+@media (max-width: 769px) {
+
+  /*.Partners {
+    width: 75%;
+  }*/
+
+  .Partners .Arrow {
+    display: none;
+  }
+
+  .Partners .container {
+    overflow-x: scroll;
+  }
+
+}

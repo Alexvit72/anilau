@@ -1,0 +1,14 @@
+.Arrow {
+  width: 20px;
+  height: 20px;
+  background: url(../images/arrowsprite.png);
+}
+
+.Arrow.active {
+  cursor: pointer;
+  background-position: 0 -20px;
+}
+
+.Arrow.active:focus {
+  background-position: 0 -40px;
+}

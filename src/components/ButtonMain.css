@@ -1,0 +1,24 @@
+.ButtonMain {
+  border: none;
+  border-radius: 20px;
+  background-color: #0060ff;
+  box-shadow: 13.519px 18.607px 35px 0px rgba(21, 20, 20, 0.3);
+  width: 240px;
+  height: 86px;
+  font: 1.0rem / 2.67 MontserratBold;
+  color: #fff;
+  text-align: center;
+}
+
+.ButtonMain:hover {
+  color: #ffb839;
+  transition: 0.3s;
+}
+
+@media (max-width: 300px) {
+
+  .ButtonMain {
+    width: 180px;
+  }
+
+}

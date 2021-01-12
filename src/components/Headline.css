@@ -1,0 +1,8 @@
+.Headline {
+  font: 2.0rem / 1 MontserratBold;
+  color: #000;
+}
+
+.Headline span {
+  color: #0060ff;
+}

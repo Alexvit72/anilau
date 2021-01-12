@@ -1,0 +1,38 @@
+#Footer {
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  position: relative;
+  top: -40px;
+  font: 0.9rem / 3 MontserratReg;
+  color: #fff;
+  padding-top: 35px;
+}
+
+.Footer address {
+  font-style: normal;
+  font: 1.33rem / 1.5 MontserratReg;
+  color: #999;
+}
+
+.Footer a:hover {
+  color: #fff;
+}
+
+.Footer > p {
+  margin-top: 32px;
+}
+
+@media (max-width: 649px) {
+
+  #Footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Footer address {
+    font: 1.0rem / 2 MontserratReg;
+  }
+
+}

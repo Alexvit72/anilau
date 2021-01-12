@@ -1,0 +1,30 @@
+#Team {
+  text-align: center;
+  padding-top: 140px;
+  position: relative;
+  top: -140px;
+}
+
+.Team > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+
+  .Team > div {
+    max-width: 650px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 769px) {
+
+  #Team {
+    padding-top: 80px;
+  }
+
+}

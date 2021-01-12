@@ -1,0 +1,30 @@
+.InputField {
+  border-bottom: 1px solid #0060ff;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font: 1.0rem MontserratReg;
+}
+
+.InputField p span {
+  font-size: 1.0rem;
+  color: #f00;
+  margin-left: 10px;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.InputField input {
+  border: none;
+  width: 95%;
+}
+
+.InputField input, .InputField input::placeholder {
+  font: 1.0rem MontserratReg;
+  color: #000;
+  opacity: 1;
+}

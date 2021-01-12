@@ -1,0 +1,64 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url(./fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: MontserratReg;
+  src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+.App {
+  font: 18px / 2 MontserratReg;
+  color: #666;
+  background:
+    url(./images/bg1.png) no-repeat,
+    url(./images/bg2.png) right top / calc(920px + 10.9%) 775px no-repeat,
+    url(./images/bg5.png) left bottom / 100% auto no-repeat,
+    #fff;
+}
+
+.App > * {
+  padding: 0 10.9%;
+}
+
+@media (max-width: 1500px) {
+
+  .App {
+    background:
+    url(./images/bg1.png) no-repeat,
+    url(./images/bg5.png) left bottom / 100% 50px no-repeat,
+    #fff;
+  }
+
+}
+
+@media (max-width: 1250px) {
+
+  .App {
+    background:
+    url(./images/bg5.png) left bottom / 100% 50px no-repeat,
+    #fff;
+  }
+
+  .App > * {
+        padding: 0 5%;
+  }
+
+}
+
+@media (max-width: 430px) {
+
+  .App {
+    font-size: 13.5px;
+  }
+
+}
+
+@media (max-width: 280px) {
+
+  .App {
+    font-size: 10px;
+  }
+
+}
