@@ -3,7 +3,7 @@ import './ContLink.css';
 
 function ContLink(props) {
 	return <a
-		className={props.className + ' ' + props.id.slice(0, 1)}
+		className={props.className + ' ' + props.id}
 		href={props.contact}>
 	</a>;
 }

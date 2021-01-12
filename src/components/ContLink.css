@@ -7,18 +7,18 @@
   margin: 15px 7px 0;
 }
 
-.w {
+.wa {
   background: url(../images/soc-nets/wa-sprite.png) center -62px no-repeat, #0060ff;
 }
 
-.f {
+.fb {
   background: url(../images/soc-nets/fb-sprite.png) center -61px no-repeat, #0060ff;
 }
 
-.i {
+.in {
   background: url(../images/soc-nets/in-sprite.png) center -61px no-repeat, #0060ff;
 }
 
-.w:hover, .f:hover, .i:hover {
+.wa:hover, .fb:hover, .in:hover {
   background-position: center top;
 }
