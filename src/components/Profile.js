@@ -11,9 +11,10 @@ portraits.push(port1, port2, port3, port4);
 
 function Profile(props) {
   const {fullName, position, contacts} = props.worker;
-  const list = contacts.map( (contact, index) => {
-    return <ContLink key={index} contact={contact} className='ContLink' />
-  });
+  const list = [];
+  for (let field in contacts) {
+    list.push(<ContLink key={field} id={field} contact={contacts[field]} className='ContLink' />);
+  }
   return <div className={props.className}>
     <img src={portraits[props.index]} alt={fullName} />
     <Headline className='Headline' text={fullName} punctuation='' />

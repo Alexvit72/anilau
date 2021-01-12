@@ -2,22 +2,22 @@ let workers = [
   {
     fullName: 'Ed Volkov',
     position: 'Project Manager /  Laravel Developer',
-    contacts: ['wa', 'fb', 'in',]
+    contacts: {wa: '#Team', fb: '#Team', in: '#Team'}
   },
   {
     fullName: 'Alexandra Chernyshova',
     position: 'Frontend Developer',
-    contacts: ['wa', 'fb',]
+    contacts: {wa: '#Team', fb: '#Team'}
   },
   {
     fullName: 'Diana Senchenko',
     position: 'Designer',
-    contacts: ['wa',]
+    contacts: {wa: '#Team'}
   },
   {
     fullName: 'Pavel Lavrikov',
     position: 'Android Developer',
-    contacts: ['wa',]
+    contacts: {wa: '#Team'}
   },
 ];
 
